@@ -1,0 +1,229 @@
+body{
+	background-image: url("Capture10.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position:  center;
+	height: 445px;
+
+}
+
+.wrapper{
+	width: 860px;
+	margin: 0 auto;
+}
+.wrapper ul{
+	list-style: none;
+	margin-top: 2%;
+}
+.wrapper ul li{
+	background: #262626;
+	width: 170px;
+	border: 1px solid #fff;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	color: red;
+	font-size: 14px;
+	position: relative;
+	font-family: big john;
+
+}
+.wrapper ul li:hover{
+	background: gold;
+
+}
+.wrapper ul ul{
+	display: none;
+}
+.wrapper ul li:hover > ul{
+	display: block;
+}
+.wrapper ul ul ul{
+	margin-left: 170px;
+	top: 0;
+	position: absolute;
+}
+.background{
+  width: 100%;
+  height: 15%;
+  background-color: gold;
+}
+
+.button a:hover{
+	background-color: gold;
+	color:black;
+}
+.login:hover {background-color: gold;
+font-size: 15px;}
+.dropbtn{
+  color: black;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+	height: 150px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 18px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: gold;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: gold;
+}
+input[type="text"], input[type="email"], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 3px solid lightblue;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 2px;
+	resize: vertical;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
+label {
+	font-family: sans-serif;
+	font-size: 17px;
+}
+div.container {
+	border-radius: 4px;
+	background-color: Lightskyblue;
+	padding: 15px;
+}
+
+.stickyicon-list { 
+	position: fixed; 
+	top: 200px; 
+	transform: translateY(-50%);           
+	}       
+	.stickyicon-list a { 
+	display: block; 
+	text-align: center; 
+	padding: 8px; 
+	transition: all 0.5s ease; 
+	color: white; 
+	font-size: 20px; 
+	}       
+	/* HOver affect on sticky social media icons */ 
+	.stickyicon-list a:hover { 
+	color: #000; 
+	width:10px; 
+	} 
+	 
+	/* Now we have to design each icon of social media */       
+	.facebook { 
+	background: #3b5998; 
+	color: white;
+	}       
+	.twitter { 
+	color: white; 
+	background: #00acee; 
+	} 
+	.linkedin { 
+	background: #0e76a8; 
+	color: white; 
+	}       
+	.google { 
+	color: white; 
+	background: #db4a39; 
+	} 
+	.instagram { 
+	background: #3f729b; 
+	color: white; 
+	}       
+	.youtube { 
+	color: white; 
+	background: #c4302b;  
+	} 
+
+
+	footer .twitter {
+		background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+		background-repeat: no-repeat;
+		background-position: 0 0;
+	  }
+	  #footer .linkedin {
+		background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+		background-repeat: no-repeat;
+		background-position: -78px 0;
+	  }
+	  #footer .facebook {
+		background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+		background-repeat: no-repeat;
+		background-position: -233px 0;
+	  }
+	  #footer .skype {
+		background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+		background-repeat: no-repeat;
+		background-position: -156px 0;
+	  }
+	  #footer .flickr {
+		background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+		background-repeat: no-repeat;
+		background-position: -310px 0;
+	  }
+	  #footer a {
+		height: 56px;
+		width: 56px;
+		display: inline-block;
+		margin: 10px;
+	  }
+	  #footer a:hover {
+		transition: all 0.3s ease-out;
+		-webkit-transition: all 0.3s ease-out;
+	  }
+	  #footer .twitter:hover {
+		background-position: 0 -56px;
+	  }
+	  #footer .facebook:hover {
+		background-position: -233px -56px;
+	  }
+	  #footer .skype:hover {
+		background-position: -156px -56px;
+	  }
+	  #footer .linkedin:hover {
+		background-position: -78px -56px;
+	  }
+	  #footer .flickr:hover {
+		background-position: -310px -56px;
+	  }
+	  .bg-dark-1{
+		background-color: #FF3CAC;
+	  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+	   
+	  }

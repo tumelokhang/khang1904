@@ -1,0 +1,113 @@
+*{
+	padding: 0px;
+	margin: px;
+
+}
+body{
+	background-image: url("windows10.0.0.jpg");
+	width: 1323px;
+	height: 720px;
+}
+.Login-div{
+	padding: 50px 100px;
+	width: 200px;
+	height: 580px;
+	background-color: rgba(80, 70, 70, 90);
+	color: #eb3323;
+	font-family: Verdana;
+	margin-left: 450px;
+	margin-top: 2px;
+	margin-bottom: 90px
+}
+.login{
+	width: 280px;
+	height: 350px;
+	background-color: silver;
+	color: #eb3323;
+	font-family: Verdana;
+	margin-left: 400px;
+	margin-top: 50px;
+}
+h1{
+	padding-top: 50px;
+}
+hr{
+	color: #eb3349;
+}
+input[type="text"]{
+	padding: 10px 20px;
+	border: none;
+	background-color: #FFFFFF;
+	color:#eb3349;
+	border: 2px solid #eb3349;
+	margin-top: 20px;
+	font-weight: 600px;
+}
+input[type="email"]{
+	padding: 10px 20px;
+	border: none;
+	background-color: #FFFFFF;
+	color:#eb3349;
+	border: 2px solid #eb3349;
+	margin-top: 20px;
+	font-weight: 600px;
+}
+input[type="Password"]{
+	padding: 10px 20px;
+	border: none;
+	background-color: #FFFFFF;
+	color:#eb3349;
+	border: 2px solid #eb3349;
+	margin-top: 20px;
+	font-weight: 600px;
+}
+input[type="Password_confirmation"]{
+	padding: 10px 20px;
+	border: none;
+	background-color: #FFFFFF;
+	color:#eb3349;
+	border: 2px solid #eb3349;
+	margin-top: 20px;
+	font-weight: 600px;
+}
+input[type="Register"]{
+	width: 100px;
+	height: 20px;
+	text-decoration: none;
+	color: yellow;
+	padding: 10px 20px;
+	background-image: linear-gradient(#eb3349, #f45c43);
+	font-size: 18px;
+	font-weight: 1000;
+	font-family: "Lucida Console", Monaco, monospace;
+	border-radius: 10px;
+	border: none;
+	margin-top: 20px;
+}
+.login a{
+	text-decoration: none;
+	color: #eb3349;
+	padding: 10px 20px;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+.login a:hover{
+	text-decoration: none;
+	color:silver;
+	background-image:linear-gradient(#eb3349, #f45c43);
+	border-radius: 10px;
+}
+.title{
+	font-size: 20px;
+	text-decoration: none;
+	color: yellow;
+}
+.remember-me{
+	padding: 10px;
+	text-decoration: none;
+	color: yellow;
+}
+.link{
+	padding: 10px;
+	text-decoration: underline;
+	color: yellow;
+}
